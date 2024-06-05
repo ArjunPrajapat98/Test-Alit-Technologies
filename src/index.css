@@ -1,0 +1,132 @@
+body {
+  background: #c9ccd1;
+}
+
+.sideline {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ccc;
+}
+
+button {
+  height: 50px;
+}
+
+.sideline:before,
+.sideline:after {
+  content: "";
+  border-top: 1px solid #ebebeb;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+.sideline:after {
+  margin: 0 0 0 20px;
+}
+
+.img_ajn {
+  height: 550px;
+}
+
+.img_ajn img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.input_drop_error {
+  color: red !important;
+  font-size: 13px !important;
+  margin-left: 10px !important;
+  margin-top: 3px !important;
+}
+
+.custm_flex-cs {
+  display: flex;
+  gap: 20px;
+}
+
+.dash_list_ajn ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.cusrt_pointer {
+  cursor: pointer;
+}
+
+.commonBtn {
+  display: inline-flex;
+  height: 40px;
+  padding: 13px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #072188;
+  background: #072188;
+  color: #fff;
+  /* font-family: Inter; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.bill_heading {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.common_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-gap {
+  display: flex;
+  gap: 10px;
+}
+
+.questions_create {
+  cursor: pointer;
+}
+
+i.bx.bx-edit-alt {
+  color: #636cdf;
+  font-size: 25px;
+  position: relative;
+  top: 1px;
+}
+
+.questions_delete {
+  cursor: pointer;
+}
+
+i.bx.bxs-trash {
+  color: #e13f3f;
+  font-size: 25px;
+}
+
+.close_commonBtn {
+  display: inline-flex;
+  height: 40px;
+  padding: 13px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #495057;
+  background: #989898;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
