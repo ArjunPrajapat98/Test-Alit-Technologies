@@ -238,6 +238,7 @@ export default function Bill() {
                 <Dropdown
                   // isMulti={formValue?.type === "to_date"}
                   placeholder="Customer Name "
+                  isSearchable={true}
                   className="anvSel_drop"
                   name="customerName"
                   options={
